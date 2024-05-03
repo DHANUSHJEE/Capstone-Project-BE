@@ -24,11 +24,11 @@ This is the backend code for the Petty Cash Management application. It provides 
    ```bash
    git clone https://github.com/your-username/petty-cash-management-backend.git
 Navigate to the project directory:
-bash
+```bash
 Copy code
 cd petty-cash-management-backend
 Install dependencies:
-bash
+```bash
 Copy code
 npm install
 Set up environment variables:
@@ -45,12 +45,13 @@ EMAIL_PORT=<your-email-port>
 Usage
 To start the server, run:
 
-bash
+```bash
 Copy code
 npm start
 The server will start running on the port specified in the .env file (default is 3000).
 
-API Endpoints
+API Endpoints:
+
 POST /api/users/signup: Register a new user
 POST /api/users/login: Log in an existing user
 GET /api/users/getuser: Get user details (requires authentication)

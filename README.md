@@ -37,16 +37,17 @@ This is the backend code for the Petty Cash Management application. It provides 
    *Create a .env file in the root directory
    *Define the following environment variables in the .env file:
 
-makefile
-Copy code
-PORT=3000
+   
+   makefile
+   Copy code
+   PORT=3000
 MONGODBCONNECTIONSTRING=<your-mongodb-connection-string>
 JWT_SECRET=<your-jwt-secret-key>
 EMAIL=<your-email-for-sending-emails>
 PASSWORD=<your-email-password>
 EMAIL_PORT=<your-email-port>
 
-*Usage*
+Usage :
 To start the server, run:
 
    ```bash
@@ -55,7 +56,7 @@ npm start
 
 The server will start running on the port specified in the .env file (default is 3000).
 
-<b>API Endpoints</b>
+API Endpoints :
 
 POST /api/users/signup: Register a new user
 POST /api/users/login: Log in an existing user
@@ -70,10 +71,12 @@ GET /api/users/allexpenses: Get all expenses (requires authentication)
 DELETE /api/users/deleteexpense/:id: Delete expense by ID (requires authentication)
 PUT /api/users/updateexpense/:id: Update expense by ID (requires authentication)
 
-*Contributing*
+Contributing:
+
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or create a pull request.
 
-*License*
+License :
+
 This project is licensed under the MIT License.
 
 

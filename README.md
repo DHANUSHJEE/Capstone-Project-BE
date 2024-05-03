@@ -49,12 +49,14 @@ EMAIL_PORT=<your-email-port>
 *Usage*
 To start the server, run:
 
-bash
+   ```bash
 Copy code
 npm start
+
 The server will start running on the port specified in the .env file (default is 3000).
 
-*API Endpoints*
+<b>API Endpoints</b>
+
 POST /api/users/signup: Register a new user
 POST /api/users/login: Log in an existing user
 GET /api/users/getuser: Get user details (requires authentication)

@@ -6,6 +6,7 @@ This is the backend code for the Petty Cash Management application. It provides 
 - [Petty Cash Management Backend](#petty-cash-management-backend)
   - [Table of Contents](#table-of-contents)
   - [Technologies Used](#technologies-used)
+  - [DEPLOYED URL : https://capstone-project-be-mlnk.onrender.com](#deployed-url--httpscapstone-project-be-mlnkonrendercom)
   - [Installation](#installation)
 
 ## Technologies Used
@@ -18,6 +19,12 @@ This is the backend code for the Petty Cash Management application. It provides 
 - **dotenv**: For loading environment variables from a `.env` file
 - **nodemailer**: For sending account activation and forgot password emails
 - **crypto**: For generating random bytes for password reset tokens
+
+## DEPLOYED URL : https://capstone-project-be-mlnk.onrender.com
+
+
+
+
 
 ## Installation
 1. Clone this repository:
